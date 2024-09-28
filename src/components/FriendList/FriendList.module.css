@@ -7,32 +7,13 @@
    
 }
 
-.item {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    border: solid 1px #000;
-    border-radius: 4px 4px;
-    background-color: #fff;
-    padding: 20px;
-     
-    
-    
-}
+
 .friend-card img {
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
-    /* Відступ між зображенням і текстом */
+   
 }
 
-.online {
-    background-color: green;
-}
-
-.offline {
-    background-color: red;
-}
 
 

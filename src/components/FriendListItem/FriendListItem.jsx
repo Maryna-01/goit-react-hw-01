@@ -1,4 +1,5 @@
-import styles from "./FriendList.module.css";
+import styles from "./FriendListItem.module.css";
+
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
     const statusClass = isOnline ? styles.online : styles.offline;

@@ -1,0 +1,25 @@
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: solid 1px #000;
+    border-radius: 4px 4px;
+    background-color: #fff;
+    padding: 20px;
+
+
+
+}
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: red;
+}

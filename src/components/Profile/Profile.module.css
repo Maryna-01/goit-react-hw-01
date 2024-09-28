@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     display: flex;
@@ -13,25 +12,27 @@ body {
     margin: 0 auto;
     background-color: #f3f6f9;
     border-radius: 10px;
-     border: solid 1px #000;
+    border: solid 1px #000;
     text-align: center;
-  
-    
+
+
 }
 
 .avatar {
     width: 100px;
     border-radius: 50%;
 
-     margin: 20px;
-     background-color: #000;
+    margin: 20px;
+    background-color: #000;
 }
+
 .name {
     font-size: 24px;
     font-weight: bold;
     color: #2c3e50;
     margin-bottom: 10px;
 }
+
 .tag {
     font-size: 16px;
     color: #7f8c8d;
@@ -45,32 +46,21 @@ body {
 }
 
 .stats {
-    /* list-style: none;
+
+    list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     background-color: #e0e0e0;
-
-display: grid;
+    border-top: 1px solid #e0e0e0;
     padding: 10px 0;
-    
-   width: 100%;
-   height: 100%; */
 
-       list-style: none;
-       padding: 0;
-       margin: 0;
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
-       gap: 10px;
-      background-color: #e0e0e0;
-       border-top: 1px solid #e0e0e0;
-       padding: 10px 0;
-          
 }
+
 .stats li {
-     
+
     display: flex;
     flex-direction: column;
     align-items: center;
